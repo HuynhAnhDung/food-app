@@ -28,6 +28,7 @@ function App() {
         <Route path="/cart" component={Cart}></Route>
         <Route path="/details" component={ProductDetails}></Route>
         <Route component={Error}></Route>
+        <Route></Route>
       </Switch>
 
       <Footer></Footer>
